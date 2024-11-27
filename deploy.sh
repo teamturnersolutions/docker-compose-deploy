@@ -6,7 +6,7 @@ set -e
 echo "Starting the deployment process..."
 
 # Create directories
-BASE_DIR="/opt/docker-deploy"
+BASE_DIR="$HOME/docker-deploy"
 mkdir -p "${BASE_DIR}"
 cd "${BASE_DIR}"
 
